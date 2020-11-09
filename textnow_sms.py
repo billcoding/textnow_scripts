@@ -42,7 +42,7 @@ class Textnow:
         # profile.update_preferences()
         #
         options = webdriver.ChromeOptions()
-        # options.add_argument('-headless')  # 无头参数
+        options.add_argument('-headless')  # 无头参数
 
         # https://sites.google.com/a/chromium.org/chromedriver/home
 
